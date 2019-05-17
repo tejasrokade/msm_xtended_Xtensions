@@ -1906,6 +1906,10 @@
     <!-- Q To X Clock -->
     <string name="center_text_clock_title">Center Text Clock</string>
     <string name="center_text_clock_summary">Tranform Q-Clock to X-Clock</string>
+    <string name="center_weather_title">Center Weather View</string>
+    <string name="center_weather_summary">Align Weather to X-Clock</string>
+    <string name="center_slice_title">Center Date View</string>
+    <string name="center_slice_summary">Align Date View to X-Clock</string>
 
     <!-- Network Traffic Location -->
     <string name="network_traffic_location_title">Traffic indicator placement</string>

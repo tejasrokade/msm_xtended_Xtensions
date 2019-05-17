@@ -31,6 +31,18 @@
         android:summary="@string/center_text_clock_summary"
         android:defaultValue="false" />
 
+    <com.msm.xtended.preferences.SystemSettingSwitchPreference
+        android:key="center_weather_view"
+        android:title="@string/center_weather_title"
+        android:summary="@string/center_weather_summary"
+        android:defaultValue="true" />
+
+    <com.msm.xtended.preferences.SystemSettingSwitchPreference
+        android:key="center_slice_view"
+        android:title="@string/center_slice_title"
+        android:summary="@string/center_slice_summary"
+        android:defaultValue="true" />
+
     <ListPreference
         android:key="lock_clock_fonts"
         android:title="@string/lock_clock_font_title"
