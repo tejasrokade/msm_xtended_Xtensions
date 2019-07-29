@@ -38,6 +38,12 @@
                  android:targetClass="org.omnirom.omnistyle.ComposeThemeActivity" />
     </Preference>
 
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="accent_color"
+        android:title="@string/accent_hex_picker"
+        android:defaultValue="0xffffff"
+        android:persistent="false" />
+
 </PreferenceScreen>
 
 

@@ -1932,4 +1932,6 @@
     <string name="dialer_accent_enable_title">In-Call UI Accent</string>
     <string name="dialer_accent_enable_summary">Enable Device Accent on InCall UI</string>
 
+    <string name="accent_hex_picker">Accent Color Picker</string>
+
 </resources>
