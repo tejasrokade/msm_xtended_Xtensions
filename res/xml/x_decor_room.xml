@@ -19,14 +19,10 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
-         android:key="omni_theme_select_activity"
-         android:title="@string/x_theme_select_title"
-         android:summary="@string/x_theme_select_summary"
-         android:persistent="false" >
-         <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.omnirom.omnistyle"
-                 android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
-    </Preference>
+         android:key="theme_settings"
+         android:title="@string/x_theme_title"
+         android:summary="@string/x_theme_summary"
+         android:fragment="com.msm.xtended.fragments.XSystemTheme" />
 
     <com.msm.xtended.preferences.SystemSettingIntListPreference
          android:key="theming_settings_dashboard_icons"
