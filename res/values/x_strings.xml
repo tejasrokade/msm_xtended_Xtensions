@@ -1928,4 +1928,9 @@
     <string name="dialer_accent_enable_title">In-Call UI Accent</string>
     <string name="dialer_accent_enable_summary">Enable Device Accent on InCall UI</string>
 
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Notch behavior</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Hidden</string>
+
 </resources>
